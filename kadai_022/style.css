@@ -16,17 +16,17 @@ margin: 0;
 main {
     margin: 10px 10px;
 }
+    p {
+    margin: 0;
+    font-size: 20px;
+    }
     #parent {
         display: flex;
-        justify-content: center;
-    }
-
-    p {
-        margin: 0;
-        font-size: 20px;
+        justify-content: space-around;
     }
 
     .contents {
+       
         border: solid 3px rgb(238, 204, 204);
         flex-basis: 25%;
         padding: 10px 15px;
